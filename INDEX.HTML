@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.flex {
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex-container{ display: flex; justify-content: center; }
+.flex-container1{ display: flex;
+                 flex-wrap: wrap;
+                }
+.flex-container2{ width:300px; display: flex; flex-wrap: wrap; 
+    justify-content: center; align-self: flex-end;
+}
+.flex-container3{ display: flex; flex-wrap: wrap; 
+    justify-content: center; flex-direction:column; 
+    align-items: flex-end;}
+   
+.box1 { background-color: yellow;
+                 align-self: center;padding: 10px;
+                }
+.flex-container5{ display: flex; flex-wrap: wrap; 
+    justify-content: center; flex-direction:row; 
+    align-items: flex-end;}
+    .box2 { background-color: yellow;
+                 align-self: center; padding: 10px;width: 120px;
+                }
+.flex-container6{ display: flex; flex-wrap: wrap; 
+    justify-content: center; flex-direction:row; 
+    align-items: flex-end;}
+    .box3 { background-color: yellow;
+                 align-self: center; padding: 10px;width: 800px;
+                }
+    .nav{ box-sizing: border-box;   padding: 0; margin: 0; color: white;
+    text-decoration: none;  
+               }
+.flex-container7{
+    font-family: sans-serif;
+    font-size: 16px;background: #222;
+    padding:  15px;display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{ background: transparent;
+        border: 1px #0080ff solid;  
+        background: #0080ff;
+        border: 1px royalblue solid;
+        
+        background: royalblue;
+        border-color: darkblue;
+        padding: 10px 15px;
+        margin: 5px ;
+       
+}
+   </style>
+</head>
+<body>
+   <div></div>
+        <div class="flex">One..</div>
+        <div class="flex">Two..</div>
+        <div class="flex">Three..</div>
+        <div class="flex">Four..</div> 
+        <div class="flex">Five</div>
+        <div class="flex">Six..</div>
+        <div class="flex">Seven..</div>
+   </div>
+
+   <div class="flex-container">
+   <div class="flex">One..</div>
+   <div class="flex">Two..</div>
+   <div class="flex">Three..</div>
+   <div class="flex">Four..</div> 
+   <div class="flex">Five</div>
+   <div class="flex">Six..</div>
+   <div class="flex">Seven..</div>
+</div>
+
+<div class="flex-container1">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="flex">Three..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+ 
+ <div class="flex-container2">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="flex">Three..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+
+ <div class="flex-container3">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="flex">Thhkjhjkhkree..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+
+ <div class="flex-container3">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="box1">Three..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+ <div class="flex-container5">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="box2">Three..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+ <div class="flex-container6">
+    <div class="flex">One..</div>
+    <div class="flex">Two..</div>
+    <div class="box3">Three..</div>
+    <div class="flex">Four..</div> 
+    <div class="flex">Five</div>
+    <div class="flex">Six..</div>
+    <div class="flex">Seven..</div>
+ </div>
+ <div class="flex-container7">
+    <div class="nav1">Home</div>
+    <div class="nav">Culinary Blog</div>
+    <div class="nav">Menu</div>
+    <div class="nav">Contact Us</div>
+ </div>
+</body>
+</html>
